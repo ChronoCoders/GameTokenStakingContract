@@ -39,4 +39,4 @@ Security Considerations:
 This contract does not include advanced features like reentrancy protection or role-based access control (RBAC) that might be needed in more complex systems. These features can be added using OpenZeppelin's libraries like ReentrancyGuard and AccessControl.
 Consider implementing a way to lock the reward rate after it's set, or allow only authorized entities to modify the rate.
 Deployment:
-To deploy this contract, you'll need to use a platform like Remix and ensure you have access to the necessary ERC-20 token (e.g., GAME). The contract can be deployed on any Ethereum-compatible network, such as the Ethereum mainnet or a testnet like Rinkeby or Polygon.
+To deploy this contract, you'll need to use a platform like Remix and ensure you have access to the necessary ERC-20 token GAME. The contract can be deployed on any Ethereum-compatible network, such as the Ethereum mainnet or a testnet like Rinkeby or Polygon.
