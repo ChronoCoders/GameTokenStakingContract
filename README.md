@@ -9,7 +9,7 @@ The ability for users to withdraw their staked tokens along with earned rewards.
 Breakdown of the Smart Contract:
 ERC-20 Token Interface (IERC20):
 
-The contract interacts with the ERC-20 token (e.g., GAME), and the standard functions transfer, approve, and transferFrom are used to handle deposits and withdrawals.
+The contract interacts with the ERC-20 token GAME and the standard functions transfer, approve, and transferFrom are used to handle deposits and withdrawals.
 State Variables:
 
 gameToken: The ERC-20 token used for staking.
